@@ -8,12 +8,10 @@ spring-boot-multi-module-maven
 
 使用spring boot方式运行:
 
- (1)清除并编译当前文件夹
- 
- webDemoProject>mvn clean install
- (2)idea配置sringboot编译启动
- .. image:: image/springbootRunConfig.jpg
-
+(1)清除并编译当前文件夹
+  webDemoProject>mvn clean install
+(2)idea配置sringboot编译启动
+.. image:: image/springbootRunConfig.jpg
 
 Then go to; localhost:8080
 
