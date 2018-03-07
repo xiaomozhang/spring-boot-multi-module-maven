@@ -4,19 +4,15 @@
 spring-boot-multi-module-maven
 ~~~~~~~~~~~~
 
-This project is a multi module maven project. Modules are api and web.
+这个是一个多模块maven项目. 模块包含了api和web.
 
-Steps to run;
+使用spring boot方式运行:
 
-First please navigate to webDemoProject folder and build the project as;
+ (1)清除并编译当前文件夹
  
  webDemoProject>mvn clean install
-
-If everything works fine navigate to web folder and run spring boot project as;
- 
- webDemoProject>cd web
- 
- webDemoProject/web>mvn spring-boot:run
+ (2)idea配置sringboot编译启动
+ .. image:: image/springbootRunConfig.jpg
 
 
 Then go to; localhost:8080
