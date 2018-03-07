@@ -15,8 +15,13 @@ spring-boot-multi-module-maven
 .. image:: image/springbootRunConfig.jpg
 
 然后启动完成没有报错;在浏览器中输入 localhost:8080
+~~~~~~~~~~~~~~
+踩过的坑或注意事项
+~~~~~~~~~~~~~~
+1、spring boot打包插件兼容性
+   spring-boot-maven-plugin 1.5.10版本的打包控件打出来的jar包是无法访问jsp的，直接404，即使你的jsp文件打包进去了。
+   spring-boot-maven-plugin 1.4.2版本就是可以的，我不知道这两个版本打包控件有什么区别，有知道的大神可以讲讲。
 
-This project has 2 spring boot projects; api, web.
 
 
 
