@@ -1,4 +1,4 @@
-.. image: https://travis-ci.org/xiaomozhang/spring-boot-multi-module-maven.svg?branch=master
+   .. image:: https://travis-ci.org/xiaomozhang/spring-boot-multi-module-maven.svg?branch=master
    :target: https://travis-ci.org/xiaomozhang/spring-boot-multi-module-maven
 
 
