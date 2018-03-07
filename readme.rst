@@ -147,6 +147,7 @@ spring-boot-multi-module-maven
       </build>
 
 4、idea run as运行配置
+
 .. image:: image/runas.jpg
 
 
