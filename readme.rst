@@ -27,7 +27,6 @@ spring-boot-multi-module-maven
   (1)<packaging>jar</packaging>
   (2)build maven插件
   
-  ~~~~~~~~~~~~
   
   <build>
              <plugins>
@@ -99,8 +98,7 @@ spring-boot-multi-module-maven
                  </resource>
              </resources>
          </build>
-         
-~~~~~~~~~~~~         
+                  
          
 3、web war包配置(pom)
   (1)<packaging>war</packaging>
