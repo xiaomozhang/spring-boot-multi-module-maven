@@ -94,7 +94,7 @@
                     <!--<classifier>exec</classifier>-->
                     <mainClass>com.webDemo.WebApplication</mainClass>
                     <jvmArguments>-Dfile.encoding=UTF-8 -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005</jvmArguments>
-                    <layout>JAR</layout>
+                    <!--<layout>JAR</layout>-->
                 </configuration>
                 <executions>
                     <execution>

@@ -1,0 +1,13 @@
+server:
+    port: 8081
+#配置springmvc的视图
+spring:
+    application:
+       name: springBootMutiple
+    mvc:
+       view:
+         prefix: /WEB-INF/pages/
+         suffix: .jsp
+#切换不同的配置文件
+    profiles:
+       active: dev
